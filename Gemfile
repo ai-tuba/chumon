@@ -1,3 +1,5 @@
+gem 'bootstrap-sass', '~> 3.1.1'
+
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -32,6 +34,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -43,3 +46,8 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+group :development do
+  gem 'hirb-unicode' # hrib の日本語対応拡張
+end
+
